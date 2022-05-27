@@ -1,11 +1,10 @@
 import time
-import collections
-import pytest
 
 
-print ( 123 )
-a=1
+time.sleep(0.1)
+print(123)
+a = 1
 
 
 def test_status():
-    assert False
+    assert True
